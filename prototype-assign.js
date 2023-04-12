@@ -46,6 +46,6 @@ Person.prototype.addToFamily = function (person) {
    person3.addToFamily(person3);
 
    console.log ('Family Array:', person2.family);
-   console.log (person2.addToFamily(person1));
+   console.log ('Family Length:', person2.addToFamily(person1));
 
-console.log('Family Length:', person2.family.length);
+
