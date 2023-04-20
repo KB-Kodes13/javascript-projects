@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+header {
+    background-color: #a6192e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #btn-request button {
+    background-color: #a6192e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #btn-request button:hover {
+    background-color: #77182b;
+  }
+  
+  .result {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #a6192e;
+    color: oldlace;
+  }
+  
+  #getAllPostsResult, #getPostByIdResult, #createNewPostResult, #replacePostResult, #updatePostResult, #deletePostResult {
+    display: none;
+  }
